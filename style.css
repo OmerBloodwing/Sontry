@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    font-size: 40px;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.185);
+    z-index: 1000;
+}
+
+.navbartext{
+    height: 55%;
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    gap: 3rem;
+    right: 12rem;
+}
+
+.logoname{
+    position: absolute;
+    left: 7rem;
+}
+
+.logoname:hover{
+    text-decoration: underline;
+}
+
+.navbar a:hover{
+    background-color: rgba(255, 0, 0, 0.459);
+    border-radius: 1rem;
+}
+
+.home{
+    padding-top: 10rem;
+    margin-left: 20%
+}
+
+.div1{
+    font-size: 1.5rem;
+}
+
+.h1s{
+    font-size: 2rem;
+}
+
+.div2{
+    font-size: 1.5rem;
+}
+
+.img1{
+    width: 30%;
+}
+
+.aoimage{
+    width: 25rem;
+}
